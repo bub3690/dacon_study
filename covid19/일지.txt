@@ -1,6 +1,25 @@
 
 - 0619
 1. 나이, 병 유무 데이터 넣어서 다시 학습하기.
-2.  random oversampling
-3. specaugment 추가하기.
-4. 시간되면, 배치별로 패딩으로 수정하기.
+2. random oversampling (covid가 너무 적어서 과적합 될수도 있을까?)
+3. MSF
+4. specaugment 추가하기.
+5. 시간되면, 배치별로 패딩으로 수정하기.
+6. unlabeld data 포함해서 회귀 모델 따로 구성.
+
+
+
+- 0620
+
+- 수행 한것
+1. msf
+2. random over sampling
+3. specaugment
+
+위에것 다 수행해도, 똑같이 0으로 수렴하는 문제가 있음. msf 후에는 몇몇 fold는 괜찮아졌음.
+학습시간이 지나치게 오래걸려서, 배치별로 사이즈 수정이 필요
+
+
+- 해야할것
+1. 배치별로 패딩
+2. 나이, 병 유무 데이터 넣어서 학습
