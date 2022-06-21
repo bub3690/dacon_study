@@ -21,5 +21,7 @@
 
 
 - 해야할것
-1. 배치별로 패딩
-2. 나이, 병 유무 데이터 넣어서 학습
+1. pos weight 적용 - https://wp94.tistory.com/18 (random oversampling은 빼고 적용.)
+2. 배치별로 패딩
+3. normalize
+4. 나이, 병 유무 데이터 넣어서 학습
