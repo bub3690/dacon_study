@@ -22,6 +22,22 @@
 
 - 해야할것
 1. pos weight 적용 - https://wp94.tistory.com/18 (random oversampling은 빼고 적용.)
-2. 배치별로 패딩
+2. 배치별로 패딩 (의미가 없다. 원래 9초로 되서)
 3. normalize
 4. 나이, 병 유무 데이터 넣어서 학습
+
+- 0622
+
+- 수행한것
+1. pos weight (랜덤 오버샘플링 보다 좋지 못함. 둘다 적용해야한다고 생각. 또는 0.1 0.9보다 높게 변경)
+2. noramlize
+
+- 해야할것
+1. baseline도 같이 수정.
+2. 나이, 병 유무 단순 얼리 퓨전
+3. 데이터 전처리. (amplitude max 기준으로 양쪽 3초)
+4. librosa -> torch audio
+
+항상 baseline부터 먼저 고치자
+
+librosa의 속도보다는, 음성의 길이가 길어 문제도 있다고 생각됨.
