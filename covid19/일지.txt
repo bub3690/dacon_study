@@ -33,11 +33,29 @@
 2. noramlize
 
 - 해야할것
-1. baseline도 같이 수정.
-2. 나이, 병 유무 단순 얼리 퓨전
+1. baseline도 같이 수정. v
+2. 나이, 병 유무 단순 얼리 퓨전 v
 3. 데이터 전처리. (amplitude max 기준으로 양쪽 3초)
 4. librosa -> torch audio
 
 항상 baseline부터 먼저 고치자
 
 librosa의 속도보다는, 음성의 길이가 길어 문제도 있다고 생각됨.
+
+
+- 0623
+
+- 수행한것
+1. baseline 수정
+2. 나이, 병 유무 얼리 퓨전
+
+수행해도, 똑같이 하나로 수렴된다. 데이터 전처리 우선 필요.
+
+- 해야할 것
+1. 데이터 전처리(amplitude max 기준으로 양쪽 3초) (transform)
+2. MSF에도 반영
+3. MFCC 모델 구성
+
+ 
+ 
+ 
