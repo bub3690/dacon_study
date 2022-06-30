@@ -2,3 +2,4 @@ data/
 *.pt
 .ipynb_checkpoints/
 catboost_info/
+covid19/result
