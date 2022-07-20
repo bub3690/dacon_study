@@ -4,3 +4,6 @@ data/
 catboost_info/
 covid19/result
 secret.ipynb
+optuna_test/
+*.ckpt
+lightning_logs/
